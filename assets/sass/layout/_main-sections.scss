@@ -1,0 +1,54 @@
+.navbar img{
+  max-width: 4%;
+  margin-left: 3rem;
+}
+.titleSecundario{
+  padding-left: 2rem;
+ }
+ section{
+   height: 17rem;
+   width: 100%;
+   margin: 0 auto;
+ }
+.caja1{
+width: 33.3%;
+height: 17rem;
+position: relative;
+float: left;
+h3{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  }
+  p{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-right: 5rem;
+  }
+}
+.caja2{
+width: 33.3%;
+background-color: $blue-france;
+height: 15rem;
+float: left;
+position: relative;
+.caja2_img img{
+  width: 24rem;
+  left: -30px;
+  bottom: -10px;
+  position: absolute;
+}
+}
+.caja3{
+background-image: url(../images/img-2.png);
+width: 33.3%;
+height: 17rem;
+float: left;
+position: relative;
+.caja3_img img {
+  width: 9rem;
+  transform: rotate(90deg);
+  top: 35px;
+  left: -70px;
+  position: absolute;
+}
+}

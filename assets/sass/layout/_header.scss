@@ -1,0 +1,81 @@
+header{
+  height: 30rem;
+  width: 100%;
+  margin: 0;
+}
+
+.header__image{
+height: 30rem;
+background-image: url(../images/img-1.png);
+max-width: 100%;
+width: 70%;
+background-repeat: no-repeat;
+background-size: cover;
+float: left;
+position: relative;
+}
+
+    .header__Title{
+      width: 30%;
+      height: 30rem;
+      float: left;
+      position: relative;
+    }
+      .cuadrado_yellow{
+        height: 8rem;
+        width: 8rem;
+        background-color: $coral;
+        bottom: 0;
+        position: absolute;
+        z-index: 2;
+      }
+      .cuadrado_rojo{
+        height: 8rem;
+        width: 8rem;
+        background-color: $flame;
+        position: absolute;
+        z-index: 3;
+        left: -15px;
+        bottom: 20px;
+
+      }
+.icono{
+  color: $white;
+  padding-left: 3rem !important;
+  padding-top: 3rem !important;
+}
+
+.description{
+
+  background-color: $white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 29rem;
+  height: 8.5rem;
+}
+.titlePrincipal {
+  padding-top: 1rem;
+  padding-left: 2rem;
+.titleSecundario{
+  padding-bottom: 2rem;
+}
+ }
+.titlePrincipal2{
+    padding-top: 1rem;
+    text-align: left;
+    .titleSecundario2{
+    padding-bottom: 2rem;
+  }
+}
+
+.titlePrincipal3{
+  padding-top: 1rem;
+  padding-right: 2rem;
+  .titleSecundario3{
+    text-align: left;
+    padding-bottom: 2rem;
+    
+  }
+
+}
